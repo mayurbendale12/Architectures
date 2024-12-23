@@ -1,0 +1,5 @@
+"marvel_landing_screen_navigation_title" = "Marvels";
+"marvel_alert_ok_button_title" = "OK";
+"marvel_search_placeholder_text" = "Enter marvel name to search";
+"marvel_API_invalid_response" = "Invalid Response.";
+"marvel_API_server_error" = "Server not responding.";
