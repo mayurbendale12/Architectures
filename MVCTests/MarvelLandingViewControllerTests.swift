@@ -1,3 +1,4 @@
+import Core
 import XCTest
 
 @testable import MVC
