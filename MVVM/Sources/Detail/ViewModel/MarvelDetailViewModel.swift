@@ -1,4 +1,5 @@
 import Combine
+import Core
 import Foundation
 
 struct MarvelDetailModel {

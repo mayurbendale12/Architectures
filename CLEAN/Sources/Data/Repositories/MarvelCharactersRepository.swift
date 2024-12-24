@@ -1,3 +1,5 @@
+import Core
+
 protocol MarvelCharactersRepositoryContract {
     func getCharacters(completion: @escaping (Result<[MarvelModel], NetworkError>) -> Void)
 }

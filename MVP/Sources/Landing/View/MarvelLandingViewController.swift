@@ -1,3 +1,4 @@
+import Core
 import UIKit
 
 protocol MarvelLandingViewContract: AnyObject {

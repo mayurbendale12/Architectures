@@ -1,3 +1,4 @@
+import Core
 protocol MarvelDetailPresenterContract {
     func viewLoaded()
 }

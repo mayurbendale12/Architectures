@@ -1,3 +1,5 @@
+import Core
+
 protocol MarvelLandingInteractorContract {
     func fetchMarvelData(completion: @escaping (Result<[MarvelResult], NetworkError>) -> Void)
 }

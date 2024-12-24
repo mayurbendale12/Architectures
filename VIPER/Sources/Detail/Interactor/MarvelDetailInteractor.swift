@@ -1,3 +1,5 @@
+import Core
+
 protocol MarvelDetailInteractorContract {
     func fetchMarvelData(id: Int, completion: @escaping (Result<MarvelResult, NetworkError>) -> Void)
 }

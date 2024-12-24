@@ -1,3 +1,5 @@
+import Core
+
 protocol MarvelLandingPresenterContract {
     func viewLoaded()
     func didTapSearchBUtton(text: String)

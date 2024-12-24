@@ -1,3 +1,4 @@
+import Core
 import UIKit
 
 class MarvelLandingViewController: UIViewController {

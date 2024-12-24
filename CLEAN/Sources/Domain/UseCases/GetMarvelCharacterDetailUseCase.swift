@@ -1,3 +1,5 @@
+import Core
+
 protocol GetMarvelCharacterDetailUseCaseContract {
     func execute(id: Int, completion: @escaping (Result<MarvelModel, NetworkError>) -> Void)
 }
