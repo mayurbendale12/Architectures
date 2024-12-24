@@ -2,7 +2,7 @@ import Core
 
 protocol MarvelLandingPresenterContract {
     func viewLoaded()
-    func didTapSearchBUtton(text: String)
+    func didTapSearchButton(text: String)
     func didChangeSearchText(text: String)
     func didTapSearchCancelButton()
     func didSelect(at index: Int)
@@ -46,7 +46,7 @@ class MarvelLandingPresenter: MarvelLandingPresenterContract {
         }
     }
 
-    func didTapSearchBUtton(text: String) {
+    func didTapSearchButton(text: String) {
         fiterMarvelResults(searchText: text)
     }
 

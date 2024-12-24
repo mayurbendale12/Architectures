@@ -16,7 +16,7 @@ protocol MarvelLandingViewModelContract {
     var state: Observable<LandingViewState> { get set }
 
     func viewLoaded()
-    func didTapSearchBUtton(text: String)
+    func didTapSearchButton(text: String)
     func didChangeSearchText(text: String)
     func didTapSearchCancelButton()
     func didSelect(at index: Int)
@@ -64,7 +64,7 @@ class MarvelLandingViewModel: MarvelLandingViewModelContract {
         navigator.navigateToDetail(id: marvel.id)
     }
 
-    func didTapSearchBUtton(text: String) {
+    func didTapSearchButton(text: String) {
         fiterMarvelResults(searchText: text)
     }
 

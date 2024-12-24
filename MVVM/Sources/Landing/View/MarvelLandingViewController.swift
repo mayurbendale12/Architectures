@@ -72,7 +72,7 @@ extension MarvelLandingViewController: UITableViewDataSource, UITableViewDelegat
 
 extension MarvelLandingViewController: UISearchBarDelegate {
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-        viewModel.didTapSearchBUtton(text: searchBar.text ?? "")
+        viewModel.didTapSearchButton(text: searchBar.text ?? "")
     }
 
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
