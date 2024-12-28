@@ -12,12 +12,12 @@
 		<key>CLEAN.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>7</integer>
 		</dict>
 		<key>Core.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>8</integer>
 		</dict>
 		<key>MVC.xcscheme_^#shared#^_</key>
 		<dict>
@@ -29,15 +29,10 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>MVPTests.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
 		<key>MVVM.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>4</integer>
 		</dict>
 		<key>VIPER.xcscheme_^#shared#^_</key>
 		<dict>
@@ -47,12 +42,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>776E80BF2D1E998D001A7FF9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>77E884502D15771F00133F21</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>77E884652D15772000133F21</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>77F886272D1547EF0078C5CF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

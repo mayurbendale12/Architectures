@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "1620"
-   version = "2.2">
+   version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES"
@@ -15,20 +15,11 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "77F886752D15487B0078C5CF"
-               BuildableName = "MVC.app"
-               BlueprintName = "MVC"
+               BlueprintIdentifier = "771413C42D191DDB00414021"
+               BuildableName = "VIPER.app"
+               BlueprintName = "VIPER"
                ReferencedContainer = "container:Architectures.xcodeproj">
             </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <AutocreatedTestPlanReference>
-            </AutocreatedTestPlanReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
@@ -44,20 +35,9 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "77F8868A2D15487C0078C5CF"
-               BuildableName = "MVCTests.xctest"
-               BlueprintName = "MVCTests"
-               ReferencedContainer = "container:Architectures.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "776E80BF2D1E998D001A7FF9"
-               BuildableName = "MVCUITests.xctest"
-               BlueprintName = "MVCUITests"
+               BlueprintIdentifier = "771413D92D191DDC00414021"
+               BuildableName = "VIPERTests.xctest"
+               BlueprintName = "VIPERTests"
                ReferencedContainer = "container:Architectures.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -77,9 +57,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "77F886752D15487B0078C5CF"
-            BuildableName = "MVC.app"
-            BlueprintName = "MVC"
+            BlueprintIdentifier = "771413C42D191DDB00414021"
+            BuildableName = "VIPER.app"
+            BlueprintName = "VIPER"
             ReferencedContainer = "container:Architectures.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -94,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "77F886752D15487B0078C5CF"
-            BuildableName = "MVC.app"
-            BlueprintName = "MVC"
+            BlueprintIdentifier = "771413C42D191DDB00414021"
+            BuildableName = "VIPER.app"
+            BlueprintName = "VIPER"
             ReferencedContainer = "container:Architectures.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

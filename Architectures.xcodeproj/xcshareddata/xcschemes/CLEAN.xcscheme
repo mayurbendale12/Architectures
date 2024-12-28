@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1600"
+   LastUpgradeVersion = "1620"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES"
       buildArchitectures = "Automatic">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "77F0FA762D197849009CB5E0"
+               BuildableName = "CLEAN.app"
+               BlueprintName = "CLEAN"
+               ReferencedContainer = "container:Architectures.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -19,9 +35,9 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "77F887882D154BF20078C5CF"
-               BuildableName = "MVPTests.xctest"
-               BlueprintName = "MVPTests"
+               BlueprintIdentifier = "77F0FA8B2D19784B009CB5E0"
+               BuildableName = "CLEANTests.xctest"
+               BlueprintName = "CLEANTests"
                ReferencedContainer = "container:Architectures.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -37,6 +53,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "77F0FA762D197849009CB5E0"
+            BuildableName = "CLEAN.app"
+            BlueprintName = "CLEAN"
+            ReferencedContainer = "container:Architectures.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -44,6 +70,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "77F0FA762D197849009CB5E0"
+            BuildableName = "CLEAN.app"
+            BlueprintName = "CLEAN"
+            ReferencedContainer = "container:Architectures.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
