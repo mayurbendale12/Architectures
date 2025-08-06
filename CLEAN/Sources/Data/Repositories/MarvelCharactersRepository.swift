@@ -14,7 +14,6 @@ class MarvelCharactersRepository: MarvelCharactersRepositoryContract {
     func getCharacters(completion: @escaping (Result<[MarvelModel], NetworkError>) -> Void) {
         apiClient.get(endpoint: .list) { [weak self] (result: Result<MarvelCharacterEntity, NetworkError>) in
             guard let self else { return }
-            Spinner.stop()
             switch result {
             case .success(let entity):
                 let marvelResults = entity.data?.results ?? []
